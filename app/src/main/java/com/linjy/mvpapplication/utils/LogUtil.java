@@ -1,4 +1,4 @@
-package com.linjy.mvpapplication.Utils;
+package com.linjy.mvpapplication.utils;
 
 import android.support.annotation.NonNull;
 import android.text.TextUtils;

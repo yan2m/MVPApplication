@@ -1,4 +1,4 @@
-package com.linjy.mvpapplication.Base;
+package com.linjy.mvpapplication.base;
 
 import android.content.Context;
 

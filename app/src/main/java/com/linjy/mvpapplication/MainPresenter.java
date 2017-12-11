@@ -1,6 +1,6 @@
 package com.linjy.mvpapplication;
 
-import com.linjy.mvpapplication.Base.BaseActivityPresenter;
+import com.linjy.mvpapplication.base.BaseActivityPresenter;
 
 /**
  * Created by linjy on 2017/12/7.

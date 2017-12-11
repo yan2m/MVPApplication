@@ -1,4 +1,4 @@
-package com.linjy.mvpapplication.Base;
+package com.linjy.mvpapplication.base;
 
 /**
  * Created by linjy on 2017/12/7.

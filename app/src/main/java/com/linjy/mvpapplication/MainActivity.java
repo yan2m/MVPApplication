@@ -3,7 +3,7 @@ package com.linjy.mvpapplication;
 import android.content.Context;
 import android.os.Bundle;
 
-import com.linjy.mvpapplication.Base.BaseMvpActivity;
+import com.linjy.mvpapplication.base.BaseMvpActivity;
 
 public class MainActivity extends BaseMvpActivity<MainPresenter> implements MainView {
 
