@@ -14,7 +14,7 @@ public class BaseActivityPresenter<T extends BaseView> extends BasePresenter<T> 
 
     }
 
-    public void onActivityDestroy() {
+    public void onActivityStart() {
 
     }
 
@@ -26,11 +26,11 @@ public class BaseActivityPresenter<T extends BaseView> extends BasePresenter<T> 
 
     }
 
-    public void onActivityStart() {
+    public void onActivityStop() {
 
     }
 
-    public void onActivityStop() {
+    public void onActivityDestroy() {
 
     }
 

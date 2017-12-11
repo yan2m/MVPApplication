@@ -30,6 +30,6 @@ public class MainActivity extends BaseMvpActivity<MainPresenter> implements Main
 
     @Override
     public Context getContext() {
-        return null;
+        return this;
     }
 }

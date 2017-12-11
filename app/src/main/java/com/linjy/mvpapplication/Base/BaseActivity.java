@@ -1,5 +1,6 @@
 package com.linjy.mvpapplication.Base;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.LayoutRes;
 import android.support.annotation.Nullable;
@@ -28,6 +29,11 @@ public abstract class BaseActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         mUnbinder.unbind();
+    }
+
+    public void startActivity(Class<?> clz){
+        Intent intent = new Intent(this,clz);
+        startActivity(intent);
     }
 
     @LayoutRes
