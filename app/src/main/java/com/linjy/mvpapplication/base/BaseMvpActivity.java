@@ -7,7 +7,7 @@ import android.support.annotation.Nullable;
  * Created by linjy on 2017/12/6.
  */
 
-public abstract class BaseMvpActivity<P extends BaseActivityPresenter> extends BaseActivity {
+public abstract class BaseMvpActivity<P extends BasePresenter> extends BaseActivity {
     protected P mPresenter;
 
     @Override

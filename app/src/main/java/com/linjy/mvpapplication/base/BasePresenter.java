@@ -7,6 +7,7 @@ import java.lang.ref.WeakReference;
  */
 
 public class BasePresenter<T extends BaseView> {
+    protected final String TAG = getClass().getSimpleName();
     private WeakReference<T> mView;
 
 
