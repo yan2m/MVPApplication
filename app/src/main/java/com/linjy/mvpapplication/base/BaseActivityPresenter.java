@@ -10,31 +10,4 @@ public class BaseActivityPresenter<T extends BaseView> extends BasePresenter<T> 
         super(mView);
     }
 
-    public void onActivityCreate() {
-
-    }
-
-    public void onActivityStart() {
-
-    }
-
-    public void onActivityResume() {
-
-    }
-
-    public void onActivityPause() {
-
-    }
-
-    public void onActivityStop() {
-
-    }
-
-    public void onActivityDestroy() {
-
-    }
-
-    public void onActivityRestart() {
-
-    }
 }

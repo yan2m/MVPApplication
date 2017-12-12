@@ -14,43 +14,6 @@ public abstract class BaseMvpActivity<P extends BaseActivityPresenter> extends B
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mPresenter = initPresenter();
-        mPresenter.onActivityCreate();
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        mPresenter.onActivityStart();
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        mPresenter.onActivityResume();
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        mPresenter.onActivityPause();
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        mPresenter.onActivityStop();
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        mPresenter.onActivityDestroy();
-    }
-
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-        mPresenter.onActivityRestart();
     }
 
     protected abstract P initPresenter();
