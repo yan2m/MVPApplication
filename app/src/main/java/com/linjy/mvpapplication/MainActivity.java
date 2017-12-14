@@ -24,7 +24,7 @@ public class MainActivity extends BaseMvpActivity<MainPresenter> implements Main
     }
 
     @Override
-    public void setupView() {
+    protected void initView() {
 
     }
 
